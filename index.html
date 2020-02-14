@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+	<title>Position</title>
+</head>
+<body>
+	<h3>Apply relative position</h3>
+	<div class="rel-pos">
+		<div class="first-elm">
+			<h4>First element</h4>
+			<p>I am moved left to 100px from my static position</p>
+			<p>My sizes are following:</p>
+			<p>{	width: 500px; height: 250px;	}</p>
+			<br>
+			<p>My border-radius:</p>
+			<p>{ border-radius: 10px }</p>
+		</div>
+		<div class="second-elm">
+			<h4>Second element</h4>
+			<p>I am with static position by default</p>
+			<p>My sizes are following</p>
+			<p>{ width: 600px; height: 250px; }</p>
+			<br>
+			<p>My border-radius:</p>
+			<p>{ border-radius: 20px; }</p>
+		</div>
+	</div>
+	
+	<h3>Apply absolute position</h3>
+	<div class="rel-absolute">
+		<h4>I am a parent with relative posotion</h4>
+		<p>My sizes are following:</p>
+		<p>{ width:1000px; height: 200px;}</p>
+		<div class="absolute-pos">
+			<h4>I am a child element with absolute positioning, top and right 10px</h4>
+			<p>My sizes are following:</p>
+			<p>{ width:400px; height: 150px;}</p>
+		</div>
+	</div>
+</body>
+</html>
